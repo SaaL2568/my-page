@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <title>LAB2-question1</title>
+    <style type="text/css" media="all">
+        h1 {
+            background-color: darkcyan;
+            font-size: 55px;
+            font-weight: bold;
+            position: relative;
+            /* position added */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: lightsteelblue;
+            overflow-x: hidden;
+            /* overflow added */
+        }
+
+        main {
+            flex: 1;
+            position: relative;
+            /* position added */
+        }
+
+        p.info {
+            font-size: 16px;
+            border-style: solid;
+            border-radius: 16px;
+            background-color: lightgreen;
+            overflow: auto;
+            /* overflow added */
+        }
+
+        .points {
+            font-size: 20px;
+            border-style: outset;
+            border-radius: 16px;
+            width: 500px;
+            border-color: brown;
+            vertical-align: middle;
+            margin-left: 50px;
+            float: left;
+            /* float added */
+            position: relative;
+            /* position added */
+            overflow: hidden;
+            /* overflow added */
+        }
+
+        .points:hover {
+            font-weight: 800;
+        }
+
+        #mainheading {
+            font-size: 22px;
+            margin-left: 10px;
+            font-weight: 600;
+            position: relative;
+            /* position added */
+        }
+
+        figure {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            /* overflow added */
+        }
+
+        ul {
+            list-style-type: none;
+            margin-top: 40;
+            margin: 0;
+            padding: 0;
+            width: 500px;
+            display: inline-block;
+            overflow: hidden;
+            /* overflow added */
+        }
+
+        li a {
+            float: left;
+            /* float added */
+            background-color: rgb(165, 207, 207);
+            padding: 8px 16px;
+            color: black;
+            position: relative;
+            /* position added */
+        }
+
+        li a:hover {
+            background-color: rgb(63, 114, 114);
+            color: black;
+        }
+
+        footer {
+            position: fixed;
+            /* position added */
+            bottom: 0;
+            width: 100%;
+            background-color: darkcyan;
+            color: white;
+            padding: 10px 0;
+            overflow: hidden;
+            /* overflow added */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Department of AIML&DS</h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="faculty.html">FACULTY</a></li>
+            </ul>
+        </nav>
+        <article>
+            <header id="mainheading">
+                About:
+            </header>
+
+            <p class="info">
+                The Department offers three programmes BTech in AIML, BTech CSE Specialization in Data Science, BTech in
+                CSE Specialization in AIML and MTech in Data Science.It focuses on equipping students with strong
+                theoretical foundations and practical skills in areas such
+                as Artificial Intelligence, Machine Learning, deep learning, natural language processing, computer
+                vision, data analytics, and intelligent systems.The curriculum is designed to meet industry demands and
+                foster innovation, creativity, and critical
+                thinking.With experienced faculty, modern laboratories, and industry collaborations, the department
+                offers a rich
+                learning environment for research and development.Students are encouraged to participate in internships,
+                real-time projects and hackathons to gain
+                hands-on experience.The department also promotes ethical AI practices through societal impact awareness.
+                Graduates are well-prepared for careers in data science, AI research, software development, and
+                analytics across various sectors, including healthcare, finance, education, robotics, and technologies
+                under the Gambit of AI, ML and Data Science, making them valuable contributors to the digital
+                transformation of society.
+                The department conducts workshops and industry hands-on sessions on regular basis to equip students to
+                learn and implement latest technologies in AI and data science.
+            </p>
+            <div class="points" style="float:left;margin-left:50px;">
+                VISION:To excel in human-centred AI and
+                data-driven innovation through ethical research, societal
+                well-being, and transformative collaborations.
+            </div>
+            <div class="points" style="float:right;margin-right:50px;">
+                MISSION:Empowering individuals to ethically
+                harness data and AI through accessible and value-driven
+                curriculum.Foster a dynamic research environment that advances innovative and impactful solutions for
+                the betterment of global well-being.
+            </div>
+
+        </article>
+    </main>
+    <footer align="center">
+        &copy;Christ University@2025
+    </footer>
+</body>
+
+</html>
